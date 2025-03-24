@@ -1,8 +1,7 @@
-"use strict";
-var a = 11;
-a = "mahak";
-const m = "mahak";
-m = 15;
+// var a = 11;
+// a= "mahak";
+// const m = "mahak";
+// m= 15;
 var StatusCode;
 (function (StatusCode) {
     StatusCode["ABANDONED"] = "abandoned status code 500";
@@ -15,12 +14,31 @@ abcd({ name: "mahak", email: "mehekek@gamil.com", password: "123Wm2ekw", gender:
 function abcde(obj) {
 }
 abcde("mahak");
-class Device {
-    constructor() {
+var Device = /** @class */ (function () {
+    function Device() {
         this.name = "lg";
         this.price = "120000";
         this.catagery = "digital";
     }
-}
-let a1 = new Device();
-let a2 = new Device();
+    return Device;
+}());
+var a1 = new Device();
+var a2 = new Device();
+var bottle = /** @class */ (function () {
+    function bottle() {
+        this.price = "180";
+        this.radius = "120";
+        this.colour = "black";
+        this.hieght = "3.5";
+    }
+    return bottle;
+}());
+var b1 = new bottle();
+var bottlemake = /** @class */ (function () {
+    function bottlemake(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+    return bottlemake;
+}());
+var m1 = new bottlemake("milton", 1200);

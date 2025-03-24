@@ -1,9 +1,9 @@
-var a = 11;
-a= "mahak";
+// var a = 11;
+// a= "mahak";
 
 
-const m = "mahak";
-m= 15;
+// const m = "mahak";
+// m= 15;
 
 
 enum StatusCode{
@@ -47,3 +47,22 @@ class Device {
 
 let a1 = new Device();
 let a2 = new Device();
+
+
+class bottle{
+    price ="180";
+    radius="120";
+    colour="black";
+    hieght="3.5";
+}
+
+let b1 = new  bottle ();
+
+
+class bottlemake {
+    constructor(public name:string , public price:number){
+
+    }
+}
+
+let m1 = new bottlemake("milton" ,1200)
