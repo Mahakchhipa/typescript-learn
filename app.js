@@ -42,3 +42,40 @@ var bottlemake = /** @class */ (function () {
     return bottlemake;
 }());
 var m1 = new bottlemake("milton", 1200);
+var BottleMaker = /** @class */ (function () {
+    function BottleMaker(name, color, price, metal) {
+        this.name = name;
+        this.color = color;
+        this.price = price;
+        this.metal = metal;
+    }
+    return BottleMaker;
+}());
+var botle = new BottleMaker("milton", "red", 1100, "metal");
+var mhk = /** @class */ (function () {
+    function mhk() {
+        this.name = "jaishree";
+    }
+    mhk.prototype.SomeChange = function () {
+        console.log(this.name);
+        this.SomeChange;
+    };
+    mhk.prototype.SomeChangeMode = function () {
+        console.log("im learning ts");
+    };
+    return mhk;
+}());
+var carMaker1way = /** @class */ (function () {
+    function carMaker1way(name) {
+        this.name = name;
+    }
+    return carMaker1way;
+}());
+var s1 = new carMaker1way("BMWCAR");
+var carMaker2way = /** @class */ (function () {
+    function carMaker2way(name) {
+        this.name = name;
+    }
+    return carMaker2way;
+}());
+var s2 = new carMaker2way("BMWCAR 2 way to declore this name of car");

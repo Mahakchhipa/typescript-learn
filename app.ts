@@ -66,3 +66,38 @@ class bottlemake {
 }
 
 let m1 = new bottlemake("milton" ,1200)
+
+
+class BottleMaker{
+    constructor(public name:string, public color:string, public price:number, public metal :string){}
+}
+
+let botle = new BottleMaker("milton","red",1100,"metal")
+
+
+class mhk {
+    name ="jaishree";
+    SomeChange (){
+        console.log(this.name)
+        this.SomeChange
+    }
+
+    SomeChangeMode(){
+        console.log("im learning ts");
+    }
+}
+
+class carMaker1way {
+    constructor(public name:string){}
+}
+
+let s1 = new carMaker1way( "BMWCAR")
+
+class carMaker2way {
+public name;
+    constructor( name:string){
+        this.name = name;
+    }
+}
+
+let s2 = new carMaker2way( "BMWCAR 2 way to declore this name of car");
