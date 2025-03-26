@@ -26,6 +26,7 @@ var a1 = new Device();
 var a2 = new Device();
 var bottle = /** @class */ (function () {
     function bottle() {
+
         this.price = "180";
         this.radius = "120";
         this.colour = "black";
