@@ -12,3 +12,11 @@ var Humun;
     Humun["stream"] = "BCA";
 })(Humun || (Humun = {}));
 console.log(Humun.name);
+var Earphones = /** @class */ (function () {  
+    function Earphones(name, price) {
+        this.name = name;
+        this.price = price;
+    }
+    return Earphones;
+}());
+var a1 = new Earphones("Apple", 1200);
